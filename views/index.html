@@ -5,9 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <scipt src="javascipts/client_bttn_callbacks.js"></scipt>
+
 
 </head>
 <body>
@@ -47,19 +45,19 @@
 <div class="container text-center"> 
   <div class="row">
     
-    <div class="col-sm-7"> 
-        <div class="row">
+    <div class="col-sm-7">
+        <div class="row" id="device_1">
             <div class="col-sm-3">
                 <div class="well">
-                    <p id="device_name">DHT11 Sensor</p>
-                    <img id="device_img" src="publick/imagex/sensor.jpg" class="img-circle" height="90" width="90" alt="Avatar"  >
+                    <p class="device_name">DHT11 Sensor</p>
+                    <img  src="images/sensor.jpg" class="img-circle device_img" height="90" width="90" alt="Avatar"  >
                 </div>
             </div>
             <div class="col-sm-9">
                 <div class="well">
                     <div class="row">
                         <div class="col-sm-12">
-                            <p class="text-left" id="device_description">DHT11 digital temperature and humidity sensor is a composite sensor contains a calibrated digital signal output of the temperature and humidity. The sensor includes a resistive sense of wet components and an NTC temperature measurement devices, and connected with a high-performance 8-bit Microcontroller.</p>
+                            <p class="text-left device_description">DHT11 digital temperature and humidity sensor is a composite sensor contains a calibrated digital signal output of the temperature and humidity. The sensor includes a resistive sense of wet components and an NTC temperature measurement devices, and connected with a high-performance 8-bit Microcontroller.</p>
                         </div>
                     </div>
 
@@ -67,10 +65,10 @@
                         <div class="col-sm-8"></div>
 
                         <div class="col-sm-4">
-                            <div class="dropdown" > 
+                            <div class="dropdown" >
                                 <button class="btn btn-success dropdown-toggle add-device-to-chanel" type="button" id="ddMenuChanel" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Add To ...<span class="caret"></span>
                                 </button>
-                                <ul class="dropdown-menu" aria-labelledby="dropdownMenuChanel">
+                                <ul class="dropdown-menu chanels_bttn" aria-labelledby="dropdownMenuChanel">
                                     <li><a href="#">Room 1</a></li>
                                     <li><a href="#">Room 2</a></li>
                                     <li><a href="#">Room 3</a></li>
@@ -83,12 +81,46 @@
         </div>
 
 
+        <div class="row" id="device_2">
+            <div class="col-sm-3">
+                <div class="well">
+                    <p class="device_name">DHT11 Sensor</p>
+                    <img  src="images/sensor.jpg" class="img-circle device_img" height="90" width="90" alt="Avatar"  >
+                </div>
+            </div>
+            <div class="col-sm-9">
+                <div class="well">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <p class="text-left device_description">DHT11 digital temperature and humidity sensor is a composite sensor contains a calibrated digital signal output of the temperature and humidity. The sensor includes a resistive sense of wet components and an NTC temperature measurement devices, and connected with a high-performance 8-bit Microcontroller.</p>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-sm-8"></div>
+
+                        <div class="col-sm-4">
+                            <div class="dropdown" >
+                                <button class="btn btn-success dropdown-toggle add-device-to-chanel" type="button" id="ddMenuChanel" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Add To ...<span class="caret"></span>
+                                </button>
+                                <ul class="dropdown-menu chanels_bttn" aria-labelledby="dropdownMenuChanel">
+                                    <li><a href="#">Room 1</a></li>
+                                    <li><a href="#">Room 2</a></li>
+                                    <li><a href="#">Room 3</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
 
       <div class="row">
         <div class="col-sm-3">
           <div class="well">
            <p>Bo</p>
-           <img src="publick/imagex/bandmember.jpg" class="img-circle" height="55" width="55" alt="Avatar">
+           <img src="images/bandmember.jpg" class="img-circle" height="55" width="55" alt="Avatar">
           </div>
         </div>
         <div class="col-sm-9">
@@ -101,7 +133,7 @@
         <div class="col-sm-3">
           <div class="well">
            <p>Jane</p>
-           <img src="publick/imagex/bandmember.jpg" class="img-circle" height="55" width="55" alt="Avatar">
+           <img src="images/bandmember.jpg" class="img-circle" height="55" width="55" alt="Avatar">
           </div>
         </div>
         <div class="col-sm-9">
@@ -114,7 +146,7 @@
         <div class="col-sm-3">
           <div class="well">
            <p>Anja</p>
-           <img src="publick/imagex/bird.jpg" class="img-circle" height="55" width="55" alt="Avatar">
+           <img src="images/bird.jpg" class="img-circle" height="55" width="55" alt="Avatar">
           </div>
         </div>
         <div class="col-sm-9">
@@ -128,7 +160,7 @@
         <div class="col-sm-3">
           <div class="well">
            <p>Anja</p>
-           <img src="imagex/bird.jpg" class="img-circle" height="55" width="55" alt="Avatar">
+           <img src="images/bird.jpg" class="img-circle" height="55" width="55" alt="Avatar">
           </div>
         </div>
         <div class="col-sm-9">
@@ -142,7 +174,7 @@
         <div class="col-sm-3">
           <div class="well">
            <p>Anja</p>
-           <img src="publick/imagex/bird.jpg" class="img-circle" height="55" width="55" alt="Avatar">
+           <img src="images/bird.jpg" class="img-circle" height="55" width="55" alt="Avatar">
           </div>
         </div>
         <div class="col-sm-9">
@@ -156,7 +188,7 @@
         <div class="col-sm-3">
           <div class="well">
            <p>Anja</p>
-           <img src="publick/imagex/bird.jpg" class="img-circle" height="55" width="55" alt="Avatar">
+           <img src="images/bird.jpg" class="img-circle" height="55" width="55" alt="Avatar">
           </div>
         </div>
         <div class="col-sm-9">
@@ -182,14 +214,14 @@
                 <li class="list-group-item">
                     <div class="row">
                         <div class="col-sm-2">
-                            <img src="imagex/sensor.jpg" class="img-circle" height="35" width="35" alt="Avatar">
+                            <img src="images/sensor.jpg" class="img-circle" height="35" width="35" alt="Avatar">
                         </div>
                         <div class="col-sm-5">
                            <p align="left" class="font-weight-bold"><font size="3">Sensor name</font></p> 
                         </div>
                         <div class="col-sm-3" ></div>
                         <div class="col-sm-2" >
-                            <button type="button" class="delete-device" aria-label="Close" >
+                            <button type="button" class="close delete-device" aria-label="Close" >
                                 <span aria-hidden="true"><font size="6">&times;</font></span>
                             </button>
                         </div>
@@ -199,19 +231,20 @@
             </ul>
             <!-- </div> -->
         </div>
-        <!--chanel body end-->     
-        
-        <div class="thumbnail">
-          <input type="text" class="form-control" id="new_chanel_name" placeholder="Cahnel Name"></input>
+        <!--chanel body end-->
+    </div>
+    <div class="col-sm-5 well">
+      <div class="thumbnail">
+          <input type="text" class="form-control" id="new_chanel_name" placeholder="Cahnel Name"> </input>
           <br>
-          <button class="btn btn-primary" id="add_chanel_field_bttn">Add Cahnel</button>
-        </div>
+          <button class="btn btn-primary" id="add_chanel_bttn">Add Cahnel</button>
+      </div>
 
-        <div class="thumbnail">
+      <div class="thumbnail">
           <form>
-            <button class="btn btn-primary">Load To Cloude</button>      
+              <button class="btn btn-primary">Load To Cloude</button>
           </form>
-        </div> 
+      </div>
     </div>
   </div>
 </div>
@@ -268,4 +301,7 @@ function topFunction() {
     document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
 }
 </script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="javascripts/client_bttn_callbacks.js"></script>
 </html>
