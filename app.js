@@ -8,6 +8,7 @@ var bodyParser      = require('body-parser');
 var routes = require('./routes/index');
 var users = require('./routes/users');
 var signin = require('./routes/signin');
+var signup = require('./routes/signup');
 
 var app = express();
 
@@ -26,6 +27,18 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.use('/', routes);
 app.use('/users', users);
 app.use('/signin', signin);
+app.use('/signup', signup);
+
+app.post('/save_user', function(req, res, next) {
+    //
+    //save to DB
+    //
+    res.sendFile(path.join(__dirname, 'views/sigin.html'));
+});
+
+app.get('/signup', function(req, res, next) {
+    res.sendFile(path.join(__dirname, 'views/sign_up.html'));
+});
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
@@ -57,6 +70,7 @@ app.use(function(err, req, res, next) {
     error: {}
   });
 });
+
 
 
 module.exports = app;
