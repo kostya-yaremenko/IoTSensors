@@ -16,24 +16,27 @@ var getChanelIdByName = function(name) {
             return i
         }
     }
-}
+};
 
 var getDeviceId = function(){
 
-}
+};
 
 var addChanelToBttn = function(chanel_name) {
     var chanel_id = chanel_id_pref+getChanelIdByName(chanel_name);
     var device_id = getDeviceId();
-    var temp = bttn_list_block.sub(0, -1);
+    var temp = bttn_list_block.substring(0);
     temp = temp.replace('{1}', chanel_name);
     // chanels[chanel_id].devices.push(device_id);
     console.log(temp);
-    document.querySelector('.chanels_bttn').innerHTML+=temp;
-}
+    var bttns = document.getElementsByClassName('chanels_bttn');
+    for ( i=0; i<bttns.length; ++i) {
+        bttns[i].innerHTML+=temp;
+    }
+};
 
 var handleClickOnAddChanel = function (event) {
-    var input_obj = document.querySelector('#new_chanel_name')
+    var input_obj = document.querySelector('#new_chanel_name');
     var chanel_name = input_obj.value;
     if (chanel_name == '') {
         alert('Enter chanel Name!');
@@ -49,10 +52,8 @@ var handleClickOnAddChanel = function (event) {
     addChanelToBttn(chanel_name);
     ++chanel_counter;
     input_obj.value = '';
-    console.log(chanel_name);
 };
 
 var button = document.querySelector('#add_chanel_bttn');
-console.log(""+(button));
 button.addEventListener('click', handleClickOnAddChanel);
 

@@ -36,10 +36,10 @@
       <file leaf-file-name="client_bttn_callbacks.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/javascripts/client_bttn_callbacks.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+            <state relative-caret-position="119">
+              <caret line="31" column="49" selection-start-line="31" selection-start-column="49" selection-end-line="31" selection-end-column="49" />
               <folding>
-                <marker date="1526760034472" expanded="true" signature="671:678" ph="×" />
+                <marker date="1526814494421" expanded="true" signature="671:678" ph="×" />
               </folding>
             </state>
           </provider>
@@ -48,14 +48,14 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/views/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="108" column="67" selection-start-line="108" selection-start-column="67" selection-end-line="108" selection-end-column="67" />
+            <state relative-caret-position="170">
+              <caret line="106" column="36" selection-start-line="106" selection-start-column="40" selection-end-line="108" selection-end-column="71" />
               <folding>
-                <element signature="e#9675#9682#0" expanded="true" />
+                <element signature="e#9717#9724#0" expanded="true" />
                 <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#style#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="e#10650#11320#0" expanded="false" />
-                <element signature="e#11335#11443#0" expanded="false" />
+                <element signature="e#10692#11362#0" expanded="false" />
+                <element signature="e#11377#11485#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -284,12 +284,12 @@
       <option name="presentableId" value="Default" />
       <updated>1524702009125</updated>
       <workItem from="1524702010725" duration="1996000" />
-      <workItem from="1526736550950" duration="14344000" />
+      <workItem from="1526736550950" duration="15983000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16340000" />
+    <option name="totallyTimeSpent" value="17979000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -327,7 +327,9 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
@@ -443,24 +445,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/javascripts/client_bttn_callbacks.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+        <state relative-caret-position="119">
+          <caret line="31" column="49" selection-start-line="31" selection-start-column="49" selection-end-line="31" selection-end-column="49" />
           <folding>
-            <marker date="1526760034472" expanded="true" signature="671:678" ph="×" />
+            <marker date="1526814494421" expanded="true" signature="671:678" ph="×" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="108" column="67" selection-start-line="108" selection-start-column="67" selection-end-line="108" selection-end-column="67" />
+        <state relative-caret-position="170">
+          <caret line="106" column="36" selection-start-line="106" selection-start-column="40" selection-end-line="108" selection-end-column="71" />
           <folding>
-            <element signature="e#9675#9682#0" expanded="true" />
+            <element signature="e#9717#9724#0" expanded="true" />
             <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#style#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="e#10650#11320#0" expanded="false" />
-            <element signature="e#11335#11443#0" expanded="false" />
+            <element signature="e#10692#11362#0" expanded="false" />
+            <element signature="e#11377#11485#0" expanded="false" />
           </folding>
         </state>
       </provider>
