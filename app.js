@@ -5,6 +5,7 @@ var logger          = require('morgan');
 var cookieParser    = require('cookie-parser');
 var bodyParser      = require('body-parser');
 
+
 var routes = require('./routes/index');
 var users = require('./routes/users');
 var signin = require('./routes/signin');
@@ -26,19 +27,37 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', routes);
 app.use('/users', users);
-app.use('/signin', signin);
-app.use('/signup', signup);
+// app.use('/signin', signin);
+// app.use('/signup', signup);
 
-app.post('/save_user', function(req, res, next) {
-    //
-    //save to DB
-    //
-    res.sendFile(path.join(__dirname, 'views/sigin.html'));
-});
+// add query functions
 
-app.get('/signup', function(req, res, next) {
-    res.sendFile(path.join(__dirname, 'views/sign_up.html'));
-});
+
+// var client = new pg.Client({
+//   user: "sqxlcsuymisnbu",
+//   password: "dyXu70Wuc2jTXyGwFGXFEnYloD",
+//   database: "d66fqis9thtm0k",
+//   port: 5432,
+//   host: "ec2-50-19-227-171.compute-1.amazonaws.com",
+//   ssl: true
+// });
+// client.connect();
+
+
+// app.get('/signup', function(req, res){
+//   res.render('signup')
+// });
+
+// app.post('/save_user', function(req, res, next) {
+//     //
+//     //save to DB
+//     //
+//     res.sendFile(path.join(__dirname, 'views/sigin.html'));
+// });
+
+// app.get('/signup', function(req, res, next) {
+//     res.sendFile(path.join(__dirname, 'views/sign_up.html'));
+// });
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
