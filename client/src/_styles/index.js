@@ -34,7 +34,7 @@ injectGlobal`
 
 export const Container = styled.div`
   position: relative;
-  padding: 80px 5% 0;
+  padding: 80px 4% 0;
 `
 
 export const Head1 = styled.h1`

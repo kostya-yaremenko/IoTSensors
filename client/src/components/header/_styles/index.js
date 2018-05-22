@@ -19,10 +19,10 @@ export const HeaderWrap = styled.header`
       opacity: .5;
     }
     &:first-child {
-      left: 5%;
+      left: 4%;
     }
     &:last-child {
-      right: 5%;
+      right: 4%;
       svg {
         position: absolute;
         height: 100%;
