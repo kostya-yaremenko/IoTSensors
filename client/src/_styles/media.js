@@ -11,9 +11,9 @@ const breakpoints = theme.breakpoints;
  */
 export const media = Object.keys( breakpoints ).reduce(( acc, label ) => {
 	acc[ label ] = (...args) => css`
-        @media (min-width: ${breakpoints[ label ] / 16}em) {
-            ${css(...args)}
-        }
-    `
+    @media (min-width: ${breakpoints[ label ] / 16}em) {
+      ${css(...args)}
+    }
+  `
 	return acc
 }, {});

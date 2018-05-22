@@ -14,8 +14,9 @@ export const theme = {
 	/* Color palette */
 	palette: {
 		transp: 'transparent',
-		white: 'ffffff',
-		black: '#000000'
+		white: '#ffffff',
+		black: '#000000',
+		black_bg: '#333333'
 	}
 }
 
